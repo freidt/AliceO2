@@ -96,7 +96,7 @@ class AlpideCoder
   static constexpr uint32_t MaskHitMap = 0x7f;                    // mask for hit map: at most 7 hits in bits (0:6)
   //
   // flags for data records
-  static constexpr uint32_t REGION      = 0xc0; // flag for region
+  static constexpr uint32_t REGION = 0xc0;      // flag for region
   static constexpr uint32_t REGION_MASK = 0xe0; // mask for detecting the region
   static constexpr uint32_t CHIPHEADER = 0xa0;  // flag for chip header
   static constexpr uint32_t CHIPTRAILER = 0xb0; // flag for chip trailer
